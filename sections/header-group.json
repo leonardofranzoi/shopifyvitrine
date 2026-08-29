@@ -1,10 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "t:section_groups.header.name",
   "sections": {
     "nav": {
-      "type": "nav"
+      "type": "nav",
+      "custom_css": [
+        "header, .header, .header-wrapper {background-color: #0070f3 !important;}",
+        "/* Força os ícones e textos a ficarem brancos para dar contraste */header *, .header * {color: #ffffff !important; fill: #ffffff !important;}"
+      ],
+      "settings": {
+        "menu": "main-menu",
+        "enable_country_selector": true,
+        "enable_language_selector": true
+      }
     }
   },
-  "order": ["nav"]
+  "order": [
+    "nav"
+  ]
 }
