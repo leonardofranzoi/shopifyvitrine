@@ -9,10 +9,10 @@
  */
 {
   "sections": {
-    "hero": {
+    "image_banner_FTJTWn": {
       "type": "image-banner",
       "blocks": {
-        "button": {
+        "button_yJmmdk": {
           "type": "button",
           "settings": {
             "button_label": "Shop now",
@@ -23,10 +23,12 @@
         }
       },
       "block_order": [
-        "button"
+        "button_yJmmdk"
       ],
+      "name": "t:sections.image_banner.name",
       "settings": {
-        "height": "medium",
+        "image": "shopify://shop_images/Design_sem_nome_21.png",
+        "height": "large",
         "text_alignment": "center"
       }
     },
@@ -42,7 +44,7 @@
     }
   },
   "order": [
-    "hero",
+    "image_banner_FTJTWn",
     "featured"
   ]
 }
